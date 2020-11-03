@@ -20,6 +20,8 @@ public class EjercicioSubString {
         fin = entrada.nextInt();
 
         System.out.println("La subcadena quedaria: " + inicioText(texto, inicio, fin));
+        
+         System.out.println("Lets go");
 
     }
 
@@ -32,10 +34,10 @@ public class EjercicioSubString {
             //OTRA FORMA DE HACERLO "for (i = inicio; (i <= fin) && (inicio<texto.length() && (fin<texto.length())); i++)"
             //OTRA FORMA DE HACERLO "for (i = inicio; (i <= fin) && (inicio<texto.length() && (i<texto.length())); i++)"
             if (inicio > texto.length()) {
-                System.err.println("El numero donde quiere empezar el texto es m·s grande que el texto");
+                System.err.println("El numero donde quiere empezar el texto es m√°s grande que el texto");
             }
             if (fin > texto.length()) {
-                System.err.println("El numero donde quiere acabar el texto es m·s grande que el texto");
+                System.err.println("El numero donde quiere acabar el texto es m√°s grande que el texto");
                 break;
             } else {
                 aux += texto.charAt(i);
